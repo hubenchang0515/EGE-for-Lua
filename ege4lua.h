@@ -1,3 +1,7 @@
+#ifndef EGE4LUA_H
+#define EGE4LUA_H
+
+
 /* 绘图环境相关函数 */
 int ege4lua_cleardevice(lua_State* L);
 int ege4lua_clearviewport(lua_State* L);
@@ -89,3 +93,4 @@ int ege4lua_delay_fps(lua_State* L);
 /* 其它函数 */
 int ege4lua_getfps(lua_State* L);
 
+#endif
